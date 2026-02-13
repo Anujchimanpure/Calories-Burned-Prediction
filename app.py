@@ -1,13 +1,11 @@
 import streamlit as st
-import pickle
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import joblib
 
 # ================= LOAD MODEL =================
-with open("calories_model.pkl", "rb") as f:
-    model = joblib.load(f)
+
 
 model = joblib.load("calories_model.pkl")
 
@@ -553,4 +551,5 @@ if st.sidebar.button("Predict Calories 🔥"):
 
 
 else:
-    st.info("<-- Adjust inputs and click **Predict Calories**")
+    st.info("⬅ Adjust inputs and click **Predict Calories**")
+
