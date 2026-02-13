@@ -551,5 +551,13 @@ if st.sidebar.button("Predict Calories 🔥"):
 
 
 else:
-    st.info("⬅ Adjust inputs and click **Predict Calories**")
+    st.info("⬅ Adjust inputs and click **Predict Calories**  (Reload the page to avoid any warnings!)")
+
+st.markdown("""
+<hr>
+<center style='color:gray; font-size:13px;'>
+Built with curiosity using Streamlit & Machine Learning<br>
+-ANUJ CHIMANPURE-
+</center>
+""", unsafe_allow_html=True)
 
