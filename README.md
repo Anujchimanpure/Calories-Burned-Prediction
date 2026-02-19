@@ -2,6 +2,8 @@
 
 A Machine Learning project that predicts the number of calories burned based on physiological and exercise-related parameters such as age, gender, height, weight, duration, heart rate, and body temperature.
 
+Try Here - https://calories-burn-prediction-model.streamlit.app/
+
 ---
 
 ## Project Overview
